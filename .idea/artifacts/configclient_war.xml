@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="configclient:war">
+    <output-path>$PROJECT_DIR$/config-client/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>configclient</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="config-client.war">
+      <element id="artifact" artifact-name="configclient:war exploded" />
+    </root>
+  </artifact>
+</component>

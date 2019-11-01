@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/config-adminserv/config-adminserv.iml" filepath="$PROJECT_DIR$/config-adminserv/config-adminserv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/config-client.iml" filepath="$PROJECT_DIR$/config-client/config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-eureka/config-eureka.iml" filepath="$PROJECT_DIR$/config-eureka/config-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-portal/config-portal.iml" filepath="$PROJECT_DIR$/config-portal/config-portal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client/configclient.iml" filepath="$PROJECT_DIR$/config-client/configclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configserv.iml" filepath="$PROJECT_DIR$/configserv.iml" />
+    </modules>
+  </component>
+</project>

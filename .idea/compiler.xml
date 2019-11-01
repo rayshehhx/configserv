@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configclient" />
+        <module name="config-portal" />
+        <module name="config-eureka" />
+        <module name="config-client" />
+        <module name="config-adminserv" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config-adminserv" target="1.7" />
+      <module name="config-client" target="1.7" />
+      <module name="config-eureka" target="1.7" />
+      <module name="config-portal" target="1.7" />
+      <module name="configclient" target="1.7" />
+      <module name="configserv" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="config-adminserv" options="" />
+      <module name="config-eureka" options="" />
+      <module name="config-portal" options="" />
+      <module name="configclient" options="" />
+      <module name="configserv" options="-parameters" />
+    </option>
+  </component>
+</project>
